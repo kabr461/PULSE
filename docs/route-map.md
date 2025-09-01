@@ -1,0 +1,70 @@
+# Route Map
+
+- `/6WC/clients` → `src/app/6WC/clients/page.tsx`  • component: **SixWC_Clients**  • uses: `../../components/Sidebar`, `../../components/Macro6WCTabs`
+- `/6WC/dashboard` → `src/app/6WC/dashboard/page.tsx`  • component: **SixWC_Dashboard**  • uses: `../../components/Sidebar`, `../../components/Macro6WCTabs`
+- `/6WC/dropdowns` → `src/app/6WC/dropdowns/page.tsx`  • component: **SixWCDropdowns**  • uses: `../../components/Sidebar`, `../../components/Macro6WCTabs`
+- `/6WC/summary` → `src/app/6WC/summary/page.tsx`  • component: **SixWCSummary**  • uses: `../../components/Sidebar`, `../../components/Macro6WCTabs`
+- `/` → `src/app/layout.tsx`  • component: **RootLayout**  • uses: `./components/SupabaseProvider`
+- `/admin-sop/dropdowns` → `src/app/admin-sop/dropdowns/page.tsx`  • component: **AdminSopDropdowns**  • uses: `../../components/Sidebar`, `../../components/Macro6Tabs`
+- `/admin-sop/feedback` → `src/app/admin-sop/feedback/page.tsx`  • component: **FeedbackArchivePage**  • uses: `../../components/Sidebar`, `../../components/Macro6Tabs`
+- `/admin-sop/role-definition` → `src/app/admin-sop/role-definition/page.tsx`  • component: **RoleDefinitionPage**  • uses: `../../components/Sidebar`, `../../components/Macro6Tabs`
+- `/admin-sop/sop` → `src/app/admin-sop/sop/page.tsx`  • component: **SopPage**  • uses: `../../components/Sidebar`, `../../components/Macro6Tabs`
+- `/admin-sop/staff-qa-log` → `src/app/admin-sop/staff-qa-log/page.tsx`  • component: **StaffQaLog**  • uses: `../../components/Sidebar`, `../../components/Macro6Tabs`
+- `/admin-sop/summary` → `src/app/admin-sop/summary/page.tsx`  • component: **AdminSummaryPage**  • uses: `../../components/Sidebar`, `../../components/Macro6Tabs`
+- `/admin-sop/va-progress` → `src/app/admin-sop/va-progress/page.tsx`  • component: **VaProgressPage**  • uses: `../../components/Sidebar`, `../../components/Macro6Tabs`
+- `/admin-sop` → `src/app/admin-sop/page.tsx`  • component: **AdminDashboard**  • uses: `../components/Sidebar`, `../components/Macro6Tabs`
+- `/dashboard` → `src/app/dashboard/page.tsx`  • component: **DashboardPage**  • uses: `../components/Sidebar`
+- `/events` → `src/app/events/page.tsx`  • component: **EventsPage**  • uses: `../components/UniversalEventForm`
+- `/forgot-password` → `src/app/forgot-password/page.tsx`  • component: **ForgotPasswordPage**  • uses: 
+- `/forms/kpi-form-admin` → `src/app/forms/kpi-form-admin/page.tsx`  • component: **AdminSalesTracker**  • uses: 
+- `/forms/kpi-form-messaging` → `src/app/forms/kpi-form-messaging/page.tsx`  • component: **MessagingSetterTracker**  • uses: 
+- `/forms/retention-ltv-form` → `src/app/forms/retention-ltv-form/page.tsx`  • component: **RetentionLTVTracker**  • uses: 
+- `/help` → `src/app/help/page.tsx`  • component: **HelpPage**  • uses: 
+- `/kpi-dashboard/consult-outcomes` → `src/app/kpi-dashboard/consult-outcomes/page.tsx`  • component: **ConsultOutcomesPage**  • uses: `../../components/Sidebar`, `../../components/Macro1Tabs`
+- `/kpi-dashboard/dm-message-setting` → `src/app/kpi-dashboard/dm-message-setting/page.tsx`  • component: **DMMessageSettingPage**  • uses: `../../components/Sidebar`, `../../components/Macro1Tabs`
+- `/kpi-dashboard/dropdowns` → `src/app/kpi-dashboard/dropdowns/page.tsx`  • component: **KpiPerformanceDropdownsPage**  • uses: `../../components/Sidebar`, `../../components/Macro1Tabs`
+- `/kpi-dashboard/email` → `src/app/kpi-dashboard/email/page.tsx`  • component: **EmailSettingPage**  • uses: `../../components/Sidebar`, `../../components/Macro1Tabs`
+- `/kpi-dashboard/phone-setting` → `src/app/kpi-dashboard/phone-setting/page.tsx`  • component: **PhoneSettingPage**  • uses: `../../components/Sidebar`, `../../components/Macro1Tabs`
+- `/kpi-dashboard` → `src/app/kpi-dashboard/page.tsx`  • component: **KPIDashboard**  • uses: `../components/Sidebar`, `../components/Macro1Tabs`
+- `/login` → `src/app/login/page.tsx`  • component: **LoginPage**  • uses: 
+- `/profile/admin-clients` → `src/app/profile/admin-clients/page.tsx`  • component: **AdminClientsPage**  • uses: 
+- `/profile/admin` → `src/app/profile/admin/page.tsx`  • component: **AdminPage**  • uses: 
+- `/profile/clients` → `src/app/profile/clients/page.tsx`  • component: **Page**  • uses: `./ClientsClient`
+- `/profile/owner-clients` → `src/app/profile/owner-clients/page.tsx`  • component: **Page**  • uses: `./OwnerClientsClient`
+- `/profile/role-panel` → `src/app/profile/role-panel/page.tsx`  • component: **Page**  • uses: `./RolePanelClient`
+- `/profile` → `src/app/profile/page.tsx`  • component: **Page**  • uses: `./ProfileClient`
+- `/referrals/comeback-log` → `src/app/referrals/comeback-log/page.tsx`  • component: **StaffLogPage**  • uses: `../../components/Sidebar`, `../../components/Macro5Tabs`
+- `/referrals/dropdowns` → `src/app/referrals/dropdowns/page.tsx`  • component: **ReferralsDropdownsPage**  • uses: `../../components/Sidebar`, `../../components/Macro3Tabs`
+- `/referrals/qr-lead` → `src/app/referrals/qr-lead/page.tsx`  • component: **QRLeadPage**  • uses: `../../components/Sidebar`, `../../components/Macro3Tabs`
+- `/referrals/referrals` → `src/app/referrals/referrals/page.tsx`  • component: **ReferralsPage**  • uses: `../../components/Sidebar`, `../../components/Macro3Tabs`
+- `/referrals/summary` → `src/app/referrals/summary/page.tsx`  • component: **SummaryPage**  • uses: `../../components/Sidebar`, `../../components/Macro3Tabs`
+- `/referrals` → `src/app/referrals/page.tsx`  • component: **ReferralsComebacksDashboard**  • uses: `../components/Sidebar`, `../components/Macro3Tabs`
+- `/reset-password` → `src/app/reset-password/page.tsx`  • component: **ResetPasswordPage**  • uses: 
+- `/retention-ltv/churn-tracker` → `src/app/retention-ltv/churn-tracker/page.tsx`  • component: **ChurnTrackerPage**  • uses: `../../components/Sidebar`, `../../components/Macro2Tabs`
+- `/retention-ltv/dropdowns` → `src/app/retention-ltv/dropdowns/page.tsx`  • component: **RetentionLTVDropdownsPage**  • uses: `../../components/Sidebar`, `../../components/Macro2Tabs`
+- `/retention-ltv/ltv-tracker` → `src/app/retention-ltv/ltv-tracker/page.tsx`  • component: **LtvTrackerPage**  • uses: `../../components/Sidebar`, `../../components/Macro2Tabs`
+- `/retention-ltv/retention-log` → `src/app/retention-ltv/retention-log/page.tsx`  • component: **RetentionLogPage**  • uses: `../../components/Sidebar`, `../../components/Macro2Tabs`
+- `/retention-ltv/trainer-review-log` → `src/app/retention-ltv/trainer-review-log/page.tsx`  • component: **TrainerReviewLogPage**  • uses: `../../components/Sidebar`, `../../components/Macro2Tabs`
+- `/retention-ltv/upsell-watchlist` → `src/app/retention-ltv/upsell-watchlist/page.tsx`  • component: **UpsellWatchlistPage**  • uses: `../../components/Sidebar`, `../../components/Macro2Tabs`
+- `/retention-ltv` → `src/app/retention-ltv/page.tsx`  • component: **RetentionLtvDashboard**  • uses: `../components/Sidebar`, `../components/Macro2Tabs`
+- `/roleplay-qa/dropdowns` → `src/app/roleplay-qa/dropdowns/page.tsx`  • component: **RoleplayDropdowns**  • uses: `../../components/Sidebar`, `../../components/Macro5Tabs`
+- `/roleplay-qa/objection-rubric` → `src/app/roleplay-qa/objection-rubric/page.tsx`  • component: **ObjectionRubricPage**  • uses: `../../components/Sidebar`, `../../components/Macro5Tabs`
+- `/roleplay-qa/sales-roleplay` → `src/app/roleplay-qa/sales-roleplay/page.tsx`  • component: **SalesRoleplayPage**  • uses: `../../components/Sidebar`, `../../components/Macro5Tabs`
+- `/roleplay-qa/staff-log` → `src/app/roleplay-qa/staff-log/page.tsx`  • component: **StaffLogPage**  • uses: `../../components/Sidebar`, `../../components/Macro5Tabs`
+- `/roleplay-qa/summary` → `src/app/roleplay-qa/summary/page.tsx`  • component: **SummaryPage**  • uses: `../../components/Sidebar`, `../../components/Macro5Tabs`
+- `/roleplay-qa` → `src/app/roleplay-qa/page.tsx`  • component: **RoleplayDashboard**  • uses: `../components/Sidebar`, `../components/Macro5Tabs`
+- `/social-content/analytics` → `src/app/social-content/analytics/page.tsx`  • component: **SocialAnalyticsPage**  • uses: `../../components/Sidebar`, `../../components/Macro4Tabs`
+- `/social-content/cta-performance` → `src/app/social-content/cta-performance/page.tsx`  • component: **CTAPerformancePage**  • uses: `../../components/Sidebar`, `../../components/Macro4Tabs`
+- `/social-content/dropdowns` → `src/app/social-content/dropdowns/page.tsx`  • component: **SocialDropdowns**  • uses: `../../components/Sidebar`, `../../components/Macro4Tabs`
+- `/social-content/posts` → `src/app/social-content/posts/page.tsx`  • component: **PostsPage**  • uses: `../../components/Sidebar`, `../../components/Macro4Tabs`
+- `/social-content/summary` → `src/app/social-content/summary/page.tsx`  • component: **SocialSummaryPage**  • uses: `../../components/Sidebar`, `../../components/Macro4Tabs`
+- `/social-content/youtube-tracker/comments-signals` → `src/app/social-content/youtube-tracker/comments-signals/page.tsx`  • component: **CommentsViewerSignalsPage**  • uses: `../../../components/Sidebar`, `../../../components/Macro4Tabs`, `../../../components/YouTubeTrackerTabs`
+- `/social-content/youtube-tracker/rank-comments` → `src/app/social-content/youtube-tracker/rank-comments/page.tsx`  • component: **RankCommentsPage**  • uses: `../../../components/Sidebar`, `../../../components/Macro4Tabs`, `../../../components/YouTubeTrackerTabs`
+- `/social-content/youtube-tracker/rank-views` → `src/app/social-content/youtube-tracker/rank-views/page.tsx`  • component: **RankViewsPage**  • uses: `../../../components/Sidebar`, `../../../components/Macro4Tabs`, `../../../components/YouTubeTrackerTabs`
+- `/social-content/youtube-tracker/recommendations` → `src/app/social-content/youtube-tracker/recommendations/page.tsx`  • component: **RecommendationsPage**  • uses: `../../../components/Sidebar`, `../../../components/Macro4Tabs`, `../../../components/YouTubeTrackerTabs`
+- `/social-content/youtube-tracker/structure` → `src/app/social-content/youtube-tracker/structure/page.tsx`  • component: **StructurePage**  • uses: `../../../components/Sidebar`, `../../../components/Macro4Tabs`, `../../../components/YouTubeTrackerTabs`
+- `/social-content/youtube-tracker/thumbnail-analysis` → `src/app/social-content/youtube-tracker/thumbnail-analysis/page.tsx`  • component: **ThumbnailAnalysisPage**  • uses: `../../../components/Sidebar`, `../../../components/Macro4Tabs`, `../../../components/YouTubeTrackerTabs`
+- `/social-content/youtube-tracker/title-hook` → `src/app/social-content/youtube-tracker/title-hook/page.tsx`  • component: **TitleHookPage**  • uses: `../../../components/Sidebar`, `../../../components/Macro4Tabs`, `../../../components/YouTubeTrackerTabs`
+- `/social-content/youtube-tracker/video-audit` → `src/app/social-content/youtube-tracker/video-audit/page.tsx`  • component: **VideoAuditPage**  • uses: `../../../components/Sidebar`, `../../../components/Macro4Tabs`, `../../../components/YouTubeTrackerTabs`
+- `/social-content/youtube-tracker` → `src/app/social-content/youtube-tracker/page.tsx`  • component: **YouTubeTracker**  • uses: `../../components/Sidebar`, `../../components/Macro4Tabs`, `../../components/YouTubeTrackerTabs`
+- `/social-content` → `src/app/social-content/page.tsx`  • component: **SocialDashboardPage**  • uses: `../components/Sidebar`, `../components/Macro4Tabs`
